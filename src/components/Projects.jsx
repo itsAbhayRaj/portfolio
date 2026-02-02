@@ -58,12 +58,12 @@ const Projects = () => {
                                         <h3 className="text-xl font-bold hover:text-[var(--accent)] transition-colors">
                                             {project.title}
                                         </h3>
-                                        <div className="flex gap-3">
+                                        <div className="flex gap-4">
                                             <a href={project.github} className="text-[var(--text-tertiary)] hover:text-[var(--text-primary)] transition-colors">
-                                                <Github size={20} />
+                                                <Github size={22} />
                                             </a>
                                             <a href={project.link} className="text-[var(--text-tertiary)] hover:text-[var(--text-primary)] transition-colors">
-                                                <ExternalLink size={20} />
+                                                <ExternalLink size={22} />
                                             </a>
                                         </div>
                                     </div>
